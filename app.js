@@ -5,7 +5,7 @@ const chuckNorris = new easyHTTP();
 
 // Get Posts API
 http.get(
-  'https://jsonplaceholder.typicode.com/posts',
+  'https://jsonplaceholder.typicode.com/posts/1',
   function (error, response) {
     if (error) {
       console.log(error);
